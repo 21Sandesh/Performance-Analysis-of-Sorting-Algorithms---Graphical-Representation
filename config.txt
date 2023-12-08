@@ -1,0 +1,6 @@
+NumberofIterations: 100
+StartIterationFromSize: 0
+IterationGap: 5
+EndIterationTillSize: 50
+RandomArrayUpperBound: 1000
+RandomArrayLowerBound: 0
