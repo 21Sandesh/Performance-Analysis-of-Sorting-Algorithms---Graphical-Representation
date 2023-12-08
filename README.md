@@ -1,37 +1,5 @@
 # Performance-Analysis-of-Sorting-Algorithms---Graphical-Representation
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sorting Algorithms Project</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-    }
-    h1, h2, h3 {
-      color: #333;
-    }
-    code {
-      background-color: #f4f4f4;
-      padding: 2px 5px;
-      border-radius: 4px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      margin: 20px 0;
-    }
-  </style>
-</head>
-<body>
-
-# Sorting Algorithms Project
-
 ## Overview
 
 This project implements various sorting algorithms in C and analyzes their performance based on different array sizes. The average execution time for each algorithm is calculated and visualized using the pbPlots library. 
@@ -47,33 +15,46 @@ This project implements various sorting algorithms in C and analyzes their perfo
 | Insertion Sort  | O(n)           | O(n^2)         | O(n^2)         | O(1)      | Yes            | Build sorted sequence       |
 | Heap Sort       | O(nlogn)       | O(nlogn)       | O(nlogn)       | O(1)      | No             | Partitioning                |
 
-1. **Merge Sort**
-Description: Merge Sort is a divide-and-conquer algorithm that recursively divides the input array into halves, sorts each half, and then merges the sorted halves to produce a sorted array.
+## Overview
 
-Time Complexity: O(n log n) for all cases (best, average, and worst).
+### 1. Merge Sort
 
-Space Complexity: O(n) additional space for the merge process.
+**Description:** Merge Sort is a divide-and-conquer algorithm that recursively divides the input array into halves, sorts each half, and then merges the sorted halves to produce a sorted array.
 
-2. **Bubble Sort**
-Description: Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+**Time Complexity:** O(n log n) for all cases (best, average, and worst).
 
-Time Complexity: O(n^2) for worst and average cases, O(n) for the best case (when the list is already sorted).
+**Space Complexity:** O(n) additional space for the merge process.
 
-Space Complexity: O(1) as it doesn't require additional space.
+---
 
-3. **Selection Sort**
-Description: Selection Sort is an in-place comparison sorting algorithm. It divides the input list into a sorted and an unsorted region. In each iteration, the smallest (or largest) element from the unsorted region is selected and swapped with the first element of the unsorted region.
+### 2. Bubble Sort
 
-Time Complexity: O(n^2) for all cases.
+**Description:** Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
-Space Complexity: O(1) as it doesn't require additional space.
+**Time Complexity:** O(n^2) for worst and average cases, O(n) for the best case (when the list is already sorted).
 
-4. **Insertion Sort**
-Description: Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it has advantages for small lists or lists that are mostly sorted.
+**Space Complexity:** O(1) as it doesn't require additional space.
 
-Time Complexity: O(n^2) for worst and average cases, O(n) for the best case (when the list is almost sorted).
+---
 
-Space Complexity: O(1) as it doesn't require additional space.
+### 3. Selection Sort
+
+**Description:** Selection Sort is an in-place comparison sorting algorithm. It divides the input list into a sorted and an unsorted region. In each iteration, the smallest (or largest) element from the unsorted region is selected and swapped with the first element of the unsorted region.
+
+**Time Complexity:** O(n^2) for all cases.
+
+**Space Complexity:** O(1) as it doesn't require additional space.
+
+---
+
+### 4. Insertion Sort
+
+**Description:** Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it has advantages for small lists or lists that are mostly sorted.
+
+**Time Complexity:** O(n^2) for worst and average cases, O(n) for the best case (when the list is almost sorted).
+
+**Space Complexity:** O(1) as it doesn't require additional space.
+
 
 ## Project Structure
 
